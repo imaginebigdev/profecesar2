@@ -11,7 +11,6 @@ const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
 
   React.useEffect(() => {
     setInterval(() => {
