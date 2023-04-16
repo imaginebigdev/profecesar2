@@ -8,7 +8,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
     <nav className="navbar navbar-expand-lg" ref={navbarRef}>
       <div className="container">
         <a className="">
-          <image
+          <img
             src={appData.lightLogo}
             alt="logo"
             style={{ width: "300px", marginLeft: "20px", marginTop: "20px" }}
