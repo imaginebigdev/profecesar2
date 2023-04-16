@@ -110,7 +110,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        <image
                           style={{ marginBottom: "20px" }}
                           className="thumparallax-down wow fadeIn"
                           src="/img/blog/deportes.jpg"
@@ -156,7 +156,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img
+                        <image
                           style={{ marginBottom: "20px" }}
                           className="thumparallax-down wow fadeIn"
                           src="/img/blog/eventos.jpg"
@@ -188,7 +188,7 @@ const Projects = () => {
                   <div className="col-lg-6">
                     <div className="img">
                       <a>
-                        <img
+                        <image
                           style={{ marginBottom: "20px" }}
                           className="thumparallax-down wow fadeIn"
                           src="/img/blog/elemento.jpg"
@@ -224,7 +224,7 @@ const Projects = () => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="img">
-                      <img
+                      <image
                         style={{ marginBottom: "20px", width: "470px" }}
                         className="thumparallax-down wow fadeIn"
                         src="/img/blog/terapias.jpg"
