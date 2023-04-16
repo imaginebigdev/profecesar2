@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarArch2 from "../../components/Navbar-arch/navbar-arch2";
+import NavbarArch from "../../components/Navbar-arch/navbar-arch";
 import Footer from "../../components/Footer/footer";
 import DarkTheme from "../../layouts/Dark";
 import Projects from "../../components/Projects/Projects";
@@ -37,7 +37,7 @@ const Homepage1 = () => {
 
   return (
     <DarkTheme>
-      <NavbarArch2 navbarRef={navbarRef} theme="themeD" />
+      <NavbarArch navbarRef={navbarRef} theme="themeD" />
       <IntroWithSlider2 sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <Projects />
