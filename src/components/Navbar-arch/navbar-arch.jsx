@@ -83,15 +83,15 @@ const NavbarArch = ({ navbarRef, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link"
-                href="/proyectos"
+                to="/proyectos"
                 smooth="true"
                 offset={50}
                 duration={500}
               >
                 Proyectos
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
