@@ -11,7 +11,7 @@ const AboutIntro = () => {
             <div className="htit sm-mb30">
               <h4 style={{ color: "#69FE46" }}>{AboutInfo1Data.title}</h4>
             </div>
-            <img
+            <image
               src="/img/profe-about.jpg"
               style={{
                 height: "1400px",
