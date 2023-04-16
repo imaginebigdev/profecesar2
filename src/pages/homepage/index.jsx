@@ -6,6 +6,7 @@ import DarkTheme from "../../layouts/Dark";
 import WorksStyle3 from "../../components/Works-style3/works-style3";
 import AboutIntro from "../../components/About-intro";
 import ContactArch from "../../components/Contact-arch/contact-arch";
+import Projects from "../../components/Projects/Projects";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -43,6 +44,7 @@ const Homepage1 = () => {
       <div ref={MainContent} className="main-content">
         <AboutIntro />
         <WorksStyle3 />
+        <Projects />
         <ContactArch />
         <Footer />
       </div>

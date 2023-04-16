@@ -82,6 +82,17 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 Contacto
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="po-arch"
+                smooth="true"
+                offset={50}
+                duration={500}
+              >
+                Proyectos
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

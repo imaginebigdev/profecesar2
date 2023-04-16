@@ -1,5 +1,5 @@
 import React from "react";
-import Split from "../Split";
+import Image from "next/image";
 import AboutInfo1Data from "../../data/sections/about-info1.json";
 
 const AboutIntro = () => {
@@ -8,17 +8,13 @@ const AboutIntro = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-4" style={{ textAlign: "center" }}>
-            <div className="htit sm-mb30">
+            <div className="htit sm-mb30" style={{ marginBottom: "10px" }}>
               <h4 style={{ color: "#69FE46" }}>{AboutInfo1Data.title}</h4>
             </div>
-            <image
+            <Image
               src="/img/profe-about.jpg"
-              style={{
-                height: "1400px",
-                width: "270px",
-                marginTop: "10px",
-                marginBottom: "20px",
-              }}
+              height="1400px"
+              width="270px"
               alt="foto"
             />
           </div>

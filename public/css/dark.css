@@ -4997,6 +4997,7 @@ span:hover {
 /* ====================== [ Start Work ] ====================== */
 .portfolio {
   position: relative;
+  margin-bottom: 70vh;
 }
 
 .portfolio .filtering {
@@ -8882,6 +8883,10 @@ footer .item .copy-right p a {
 
   .call-action .content h2 {
     font-size: 7vw;
+  }
+
+  .portfolio {
+    margin-bottom: 130vh;
   }
 
   .portfolio .filtering .filter {

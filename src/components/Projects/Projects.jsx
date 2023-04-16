@@ -1,6 +1,6 @@
 import React from "react";
 import initIsotope from "../../common/initIsotope";
-import { Link } from "react-scroll";
+import Image from "next/image";
 
 const Projects = () => {
   let [section, setSection] = React.useState({
@@ -16,11 +16,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section
-      className="portfolio po-arch section-padding pb-70"
-      id="po-arch"
-      style={{ minHeight: "100vh" }}
-    >
+    <section className="portfolio po-arch section-padding pb-70" id="po-arch">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
@@ -110,8 +106,9 @@ const Projects = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <image
-                          style={{ marginBottom: "20px" }}
+                        <Image
+                          height="470"
+                          width="500"
                           className="thumparallax-down wow fadeIn"
                           src="/img/blog/deportes.jpg"
                           alt=""
@@ -156,8 +153,9 @@ const Projects = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <image
-                          style={{ marginBottom: "20px" }}
+                        <Image
+                          height="470"
+                          width="500"
                           className="thumparallax-down wow fadeIn"
                           src="/img/blog/eventos.jpg"
                           alt=""
@@ -188,8 +186,9 @@ const Projects = () => {
                   <div className="col-lg-6">
                     <div className="img">
                       <a>
-                        <image
-                          style={{ marginBottom: "20px" }}
+                        <Image
+                          height="470"
+                          width="500"
                           className="thumparallax-down wow fadeIn"
                           src="/img/blog/elemento.jpg"
                           alt=""
@@ -224,8 +223,9 @@ const Projects = () => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="img">
-                      <image
-                        style={{ marginBottom: "20px", width: "470px" }}
+                      <Image
+                        height="470"
+                        width="500"
                         className="thumparallax-down wow fadeIn"
                         src="/img/blog/terapias.jpg"
                         alt=""
@@ -237,29 +237,26 @@ const Projects = () => {
                       <h4 className="wow color-font wow fadeIn">
                         Terapias fisicas
                       </h4>
-                      <p className="wow txt wow fadeIn" data-splitting>
-                        <ul>
-                          <li>
-                            -Técnicas de Masajes Orientales y Terapéuticos..
-                          </li>
-                          <li>
-                            -Ventosas -Tratamiento del Dolor -Rehabilitación
-                          </li>
-                          <li>
-                            -Reeducación y Corrección Postural -Auriculoterapia
-                          </li>
-                          <li>
-                            -Fitoterapia -Resultados desde la 1o Sesión
-                            -Orientación para Recuperación Activa fuera del
-                            consultorio
-                          </li>
-                          <li>
-                            -Asesoramiento permanente -Especialista en
-                            Deportistas
-                          </li>
-                          <li>-Psicoterapia Oriental</li>
-                        </ul>
-                      </p>
+
+                      <ul className="wow txt wow fadeIn" data-splitting>
+                        <li>
+                          -Técnicas de Masajes Orientales y Terapéuticos..
+                        </li>
+                        <li>-Ventosas</li>
+                        <li>-Tratamiento del Dolor</li>
+                        <li>-Rehabilitación</li>
+                        <li>-Reeducación y Corrección Postural</li>
+                        <li>-Auriculoterapia</li>
+                        <li>-Fitoterapia</li>
+                        <li>-Resultados desde la 1o Sesión</li>
+                        <li>
+                          -Orientación para Recuperación Activa fuera del
+                          consultorio
+                        </li>
+                        <li>-Asesoramiento permanente</li>
+                        <li>-Especialista en Deportistas</li>
+                        <li>-Psicoterapia Oriental</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
