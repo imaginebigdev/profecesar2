@@ -82,16 +82,6 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 Contacto
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-              >
-                  <a href="/proyectos">
-                  Proyectos
-                  </a>
-                
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
