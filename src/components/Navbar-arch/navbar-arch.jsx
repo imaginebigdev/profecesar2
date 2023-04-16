@@ -11,7 +11,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
           <img
             src={appData.lightLogo}
             alt="logo"
-            style={{ width: "300px", marginLeft: "20px", marginTop: "20px" }}
+            style={{ width: "250px", marginLeft: "20px", marginTop: "20px" }}
           />
         </a>
 
@@ -36,12 +36,13 @@ const NavbarArch = ({ navbarRef, theme }) => {
               <Link
                 className="nav-link"
                 to=""
-                onClick={() =>
+                onClick={() => {
                   window.scrollTo({
                     top: 0,
                     behavior: "smooth",
-                  })
-                }
+                  });
+                  handleMobileDropdown();
+                }}
                 offset={50}
                 duration={500}
               >
@@ -53,6 +54,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
               <Link
                 className="nav-link"
                 to="about"
+                onClick={handleMobileDropdown}
                 smooth="true"
                 offset={50}
                 duration={500}
@@ -65,6 +67,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 className="nav-link"
                 to="portfolio-cr section-padding pb-50"
                 smooth="true"
+                onClick={handleMobileDropdown}
                 offset={50}
                 duration={500}
               >
@@ -74,23 +77,25 @@ const NavbarArch = ({ navbarRef, theme }) => {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                to="contact-arch"
+                to="po-arch"
                 smooth="true"
+                onClick={handleMobileDropdown}
                 offset={50}
                 duration={500}
               >
-                Contacto
+                Proyectos
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 className="nav-link"
-                to="po-arch"
+                to="contact-arch"
                 smooth="true"
+                onClick={handleMobileDropdown}
                 offset={50}
                 duration={500}
               >
-                Proyectos
+                Contacto
               </Link>
             </li>
           </ul>
