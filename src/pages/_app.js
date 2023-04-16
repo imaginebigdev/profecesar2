@@ -15,8 +15,8 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Cursor />
       <LoadingScreen />
-      <Component {...pageProps} />
       <ScrollToTop />
+      <Component {...pageProps} />
       <Script id="wow" src="/js/wow.min.js"></Script>
       <Script
         strategy="beforeInteractive"
