@@ -16,4 +16,5 @@ $ npm run dev
 
 ## Deploy
 
-> **LINK_DEL_DEPLOY**
+> **https://www.elprofecesar.com/**
+> **https://profecesar2.vercel.app/**
