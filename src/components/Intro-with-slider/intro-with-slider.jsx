@@ -111,13 +111,25 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="https://www.facebook.com/elementoqi">
+          <a
+            href="https://www.facebook.com/soyelprofecesar/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="https://www.youtube.com/channel/UC4GuOIvk0LaeXPCnNr2adQg">
+          <a
+            href="https://www.youtube.com/channel/UC4GuOIvk0LaeXPCnNr2adQg"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-youtube"></i>
           </a>
-          <a href="https://www.instagram.com/cesarllaneselementoqi/">
+          <a
+            href="https://www.instagram.com/soyelprofecesar/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-instagram"></i>
           </a>
         </div>
