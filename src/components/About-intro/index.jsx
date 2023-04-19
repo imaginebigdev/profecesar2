@@ -46,9 +46,7 @@ const AboutIntro = () => {
               </p>
             </div>
             <br />
-            <h4>
-              “La Energía que Elegimos Sentir, es la Vida que Elegimos Vivir”
-            </h4>
+            <h4>“1213”</h4>
           </div>
         </div>
       </div>
