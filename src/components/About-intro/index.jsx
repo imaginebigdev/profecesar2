@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import AboutInfo1Data from "../../data/sections/about-info1.json";
 
 const AboutIntro = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleShowMore = () => {
+    setShowMore(true);
+  };
+
+  const handleShowLess = () => {
+    setShowMore(false);
+  };
+
   return (
     <section className="intro-section section-padding pb-0" id="about">
       <div className="container">
@@ -32,21 +42,49 @@ const AboutIntro = () => {
               <p className="wow txt mb-10 words chars splitting" data-splitting>
                 {AboutInfo1Data.paragraph4}
               </p>
-              <p className="wow txt mb-10 words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph6}
-              </p>
-              <p className="wow txt mb-10 words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph7}
-              </p>
-              <p className="wow txt mb-10 words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph8}
-              </p>
-              <p className="wow txt mb-10 words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph9}
-              </p>
+              {showMore && (
+                <>
+                  <p
+                    className="wow txt mb-10 words chars splitting"
+                    data-splitting
+                  >
+                    {AboutInfo1Data.paragraph6}
+                  </p>
+                  <p
+                    className="wow txt mb-10 words chars splitting"
+                    data-splitting
+                  >
+                    {AboutInfo1Data.paragraph7}
+                  </p>
+                  <p
+                    className="wow txt mb-10 words chars splitting"
+                    data-splitting
+                  >
+                    {AboutInfo1Data.paragraph8}
+                  </p>
+                  <p
+                    className="wow txt mb-10 words chars splitting"
+                    data-splitting
+                  >
+                    {AboutInfo1Data.paragraph9}
+                  </p>
+                </>
+              )}
+              {!showMore && (
+                <button className="btn-leermas" onClick={handleShowMore}>
+                  Leer más...
+                </button>
+              )}
+              {showMore && (
+                <button className="btn-leermas" onClick={handleShowLess}>
+                  Leer menos...
+                </button>
+              )}
             </div>
             <br />
-            <h4>“1213”</h4>
+            <h4 style={{ fontStyle: "italic" }}>
+              “La energía que elegimos sentir es la vida que elegimos vivir”
+            </h4>
           </div>
         </div>
       </div>

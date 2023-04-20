@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>El Profe Cesar</title>
-        <link rel="icon" href="/img/logoprofe.png" />
+        <link rel="icon" href="/img/logo-cesar.png" />
       </Head>
       <Cursor />
       <LoadingScreen />

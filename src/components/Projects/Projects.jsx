@@ -26,7 +26,7 @@ const Projects = () => {
                   color: "#69FE46",
                   fontSize: "50px",
                 }}
-                className="wow fadeIn"
+                className="wow fadeIn pb-50"
                 data-wow-delay=".3s"
               >
                 Proyectos
@@ -118,25 +118,24 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6 valign">
                     <div className="content pt-0">
-                      <h4 className="wow color-font wow fadeIn">
+                      <h4 className="wow color-font wow fadeIn ">
                         Deportes Alternativos
                       </h4>
-                      <p className="wow txt wow fadeIn" data-splitting>
-                        Gestiono superviso y elaboro proyectos de deportes
-                        alternativos. Practicar deportes alternativos ofrece
-                        numerosos beneficios para la salud física y mental.
-                        Estos deportes implican un alto grado de movimiento y
-                        coordinación, lo que ayuda a mejorar la flexibilidad, la
-                        agilidad y la coordinación. Además, estos deportes
+                      <p className="wow txt wow fadeIn pb-30" data-splitting>
+                        Gestiono, superviso y elaboro proyectos de deportes
+                        alternativos, incluyendo los adaptados para personas con
+                        discapacidades motrices y cognitivas. Practicar deportes
+                        alternativos ofrece numerosos beneficios para la salud
+                        física y mental. Estos deportes implican un alto grado
+                        de movimiento y coordinación, lo que ayuda a mejorar la
+                        flexibilidad, la agilidad y la coordinación. Además,
                         suelen realizarse al aire libre, lo que proporciona una
                         mayor exposición a la luz solar y la vitamina D, lo que
-                        favorece la salud ósea y el sistema inmunológico. Por
-                        otro lado, los deportes alternativos también tienen
-                        beneficios para la salud mental. Al ser actividades
-                        lúdicas y creativas, ayudan a reducir el estrés y la
-                        ansiedad, mejoran la autoestima y la confianza en uno
-                        mismo, y fomentan el trabajo en equipo y la
-                        socialización.
+                        favorece la salud ósea y el sistema inmunológico.
+                        También reconozco la importancia de los juegos de mesa
+                        como herramienta de neuroeducación, lo que los convierte
+                        en una excelente opción para complementar la práctica
+                        deportiva y mejorar las habilidades cognitivas.
                       </p>
                     </div>
                   </div>
@@ -165,7 +164,7 @@ const Projects = () => {
                   </div>
                   <div className="col-lg-6 valign">
                     <div className="content pt-0">
-                      <h4 className="wow color-font wow fadeIn">ENDA</h4>
+                      <h4 className="wow color-font wow fadeIn ">ENDA</h4>
                       <p className="wow txt wow fadeIn" data-splitting>
                         Formo parte de la comisión de trabajo en el ENDA
                         (Encuentro nacional de deportes alternativos). Donde
@@ -213,6 +212,7 @@ const Projects = () => {
                         y a través de conferencias, talleres y seminarios, desde
                         sesiones y clases cortas hasta masterclass.
                       </p>
+                      <a href="https://www.elementoqi.com">Leer Más...</a>
                     </div>
                   </div>
                 </div>
@@ -248,7 +248,7 @@ const Projects = () => {
                         <li>-Reeducación y Corrección Postural</li>
                         <li>-Auriculoterapia</li>
                         <li>-Fitoterapia</li>
-                        <li>-Resultados desde la 1o Sesión</li>
+                        <li>-Resultados desde la 1º Sesión</li>
                         <li>
                           -Orientación para Recuperación Activa fuera del
                           consultorio
@@ -257,6 +257,9 @@ const Projects = () => {
                         <li>-Especialista en Deportistas</li>
                         <li>-Psicoterapia Oriental</li>
                       </ul>
+                      {/*  <a href="https://www.trapiasfisicas.com.ar">
+                        Leer Más...
+                      </a> */}
                     </div>
                   </div>
                 </div>

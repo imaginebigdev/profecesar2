@@ -3,6 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
+
     return {
       ...initialProps,
     };
@@ -16,7 +17,7 @@ class MyDocument extends Document {
           <meta name="keywords" content="Sitio Oficial del Profe Cesar" />
           <meta name="description" content="Sitio Oficial del Profe Cesar" />
           <meta name="author" content="" />
-          <link rel="shortcut icon" href="/img/logoprofe.png" />
+          <link rel="shortcut icon" href="/img/logo-cesar.png" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"

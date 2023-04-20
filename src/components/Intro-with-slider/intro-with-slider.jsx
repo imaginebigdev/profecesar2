@@ -2,14 +2,14 @@ import React from "react";
 import Link from "next/link";
 import introData from "../../data/sections/intro.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashpagination";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
+import Particles from "react-tsparticles";
+import particlesConfig from "../../config/particle-config";
 
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
@@ -88,6 +88,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                     <div className="row justify-content-center">
                       <div className="col-lg-8 col-md-10"></div>
                     </div>
+                    <Particles id="particles-js" options={particlesConfig} />
                   </div>
                 </div>
               </SwiperSlide>
