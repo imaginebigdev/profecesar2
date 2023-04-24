@@ -1,7 +1,7 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 130,
+      value: 150,
       density: {
         enable: true,
         value_area: 900,
@@ -14,7 +14,7 @@ const particlesConfig = {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000",
+        color: "#fff",
       },
       polygon: {
         nb_sides: 5,
@@ -46,9 +46,9 @@ const particlesConfig = {
       },
     },
     line_linked: {
-      enable: false,
-      distance: 150,
-      color: "#ffffff",
+      enable: true,
+      distance: 130,
+      color: "#69fe46",
       opacity: 0.4,
       width: 1,
     },
@@ -72,20 +72,20 @@ const particlesConfig = {
     events: {
       onhover: {
         enable: true,
-        mode: "bubble",
+        mode: "repulse",
       },
       onclick: {
         enable: true,
-        mode: "repulse",
+        mode: "connect",
       },
       resize: true,
     },
     modes: {
-      grab: {
-        distance: 400,
-        line_linked: {
-          opacity: 1,
-        },
+      connect: {
+        distance: 180,
+        color: "#69fe46",
+        opacity: 0.4,
+        width: 5,
       },
       bubble: {
         distance: 250,
@@ -95,8 +95,8 @@ const particlesConfig = {
         speed: 3,
       },
       repulse: {
-        distance: 400,
-        duration: 0.4,
+        distance: 50,
+        duration: 0.5,
       },
       push: {
         particles_nb: 4,
