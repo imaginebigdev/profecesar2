@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import AboutInfo1Data from "../../data/sections/about-info1.json";
+import AudioPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
 
 const AboutIntro = () => {
   const [showMore, setShowMore] = useState(false);
+  const audioPlayerRef = useRef(null); // Ref al componente AudioPlayer
 
   const handleShowMore = () => {
     setShowMore(true);
@@ -29,10 +32,30 @@ const AboutIntro = () => {
             />
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
+            <div className="reproductor-container">
+              <div className="reproductor pb-50">
+                <AudioPlayer
+                  className="audio-player green-audio-player"
+                  ref={audioPlayerRef}
+                  autoPlay={false}
+                  src="/audio.mp3"
+                  onPlay={(e) => console.log("onPlay")}
+                  onPause={(e) => console.log("onPause")}
+                  onEnded={(e) => console.log("onEnded")}
+                  style={{
+                    backgroundColor: "transparent",
+                    width: "100%",
+                    alignItems: "center",
+                    color: "#69fa26",
+                  }}
+                ></AudioPlayer>
+              </div>
+            </div>
             <div className="text">
               <p className="wow txt mb-10 words chars splitting" data-splitting>
                 {AboutInfo1Data.paragraph1}
               </p>
+
               {showMore && (
                 <>
                   <p

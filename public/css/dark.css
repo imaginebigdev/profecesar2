@@ -8197,7 +8197,123 @@ footer .item .copy-right p a {
 }
 
 /* ====================== [ End Footer ] ====================== */
+/* ====================== [ Star AudioPlayer ] ====================== */
+/* .audio-player {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  width: 200px;
+  background-color: transparent;
+  color: #69fe46;
+}
 
+.audio-player .rhap_container {
+  margin: 0;
+  padding: 0;
+}
+
+.audio-player .rhap_progress-section {
+  display: none;
+}
+
+.audio-player .rhap_time {
+  display: none;
+}
+
+.audio-player .rhap_controls-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-player .rhap_controls button {
+  font-size: 16px;
+  margin: 0 5px;
+} */
+
+/* $rhap_theme-color: #868686 !default;   // Color of all buttons and volume/progress indicators
+$rhap_background-color: #fff !default; // Color of the player background
+$rhap_bar-color: #e4e4e4 !default;     // Color of volume and progress bar
+$rhap_time-color: #333 !default;       // Font color of current time and duration
+$rhap_font-family: inherit !default; */
+
+.green-audio-player {
+  background-color: transparent;
+}
+
+.green-audio-player .audio-player {
+  background-color: transparent;
+}
+
+.green-audio-player .rhap_container {
+  background-color: transparent;
+}
+
+.green-audio-player .rhap_container .rhap_progress-section .rhap_progress-bar {
+  background-color: #69FE46;
+}
+
+.green-audio-player .rhap_container .rhap_time {
+  color: #69FE46;
+}
+.rhap_additional-controls{
+  display: none;
+}
+#rhap_current-time{
+  display: none;
+}
+
+.rhap_time{
+
+  display: none;
+}
+.rhap_forward-button{
+  display: none;
+}
+
+.rhap_rewind-button{
+  display: none;
+}
+
+.rhap_additional-controls{
+  display: none;
+}
+
+
+.rhap_volume-indicator{
+  display: none;
+}
+.reproductor-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+
+@media screen and (max-width: 767px){
+  .reproductor-container {
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
+  width: 100%;
+}
+
+
+
+@media (min-width: 768px) {
+  .reproductor {
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    margin-right: 50px;
+  }
+}
+}
+
+/* ====================== [ End AudioPlayer ] ====================== */
 
 
 /* ====================== [ Start Responsive ] ====================== */
