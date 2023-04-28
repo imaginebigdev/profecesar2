@@ -18,12 +18,12 @@ const AboutIntro = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-4" style={{ textAlign: "center" }}>
-            <div className="htit sm-mb30" style={{ marginBottom: "10px" }}>
+            <div className="htit sm-mb30 pb-60">
               <h4 style={{ color: "#69FE46" }}>{AboutInfo1Data.title}</h4>
             </div>
             <Image
               src="/img/profe-about.jpg"
-              height="1400px"
+              height="700px"
               width="270px"
               alt="foto"
             />
@@ -33,17 +33,26 @@ const AboutIntro = () => {
               <p className="wow txt mb-10 words chars splitting" data-splitting>
                 {AboutInfo1Data.paragraph1}
               </p>
-              <p className="wow txt mb-10 words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph2}
-              </p>
-              <p className="wow txt mb-10 words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph3}
-              </p>
-              <p className="wow txt mb-10 words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph4}
-              </p>
               {showMore && (
                 <>
+                  <p
+                    className="wow txt mb-10 words chars splitting"
+                    data-splitting
+                  >
+                    {AboutInfo1Data.paragraph2}
+                  </p>
+                  <p
+                    className="wow txt mb-10 words chars splitting"
+                    data-splitting
+                  >
+                    {AboutInfo1Data.paragraph3}
+                  </p>
+                  <p
+                    className="wow txt mb-10 words chars splitting"
+                    data-splitting
+                  >
+                    {AboutInfo1Data.paragraph4}
+                  </p>
                   <p
                     className="wow txt mb-10 words chars splitting"
                     data-splitting
@@ -82,8 +91,14 @@ const AboutIntro = () => {
               )}
             </div>
             <br />
-            <h4 style={{ fontStyle: "italic" }}>
-              “La energía que elegimos sentir es la vida que elegimos vivir”
+            <h4
+              className="pt-50"
+              style={{ fontStyle: "italic", textAlign: "center" }}
+            >
+              “ La Energía que Eliges Sentir
+            </h4>
+            <h4 style={{ fontStyle: "italic", textAlign: "center" }}>
+              es la Vida que Eliges Vivir ”
             </h4>
           </div>
         </div>

@@ -112,7 +112,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2023, AMERICA CONSTRUCCIONES. MADE WITH PASSION BY
+                  © 2023, El Profe Cesar. MADE WITH PASSION BY{" "}
                   <Link href="https://imaginebig.dev">
                     <a target="_blank" rel="noreferrer">
                       Imagine Big

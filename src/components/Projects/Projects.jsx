@@ -125,17 +125,17 @@ const Projects = () => {
                         Gestiono, superviso y elaboro proyectos de deportes
                         alternativos, incluyendo los adaptados para personas con
                         discapacidades motrices y cognitivas. Practicar deportes
-                        alternativos ofrece numerosos beneficios para la salud
-                        física y mental. Estos deportes implican un alto grado
-                        de movimiento y coordinación, lo que ayuda a mejorar la
-                        flexibilidad, la agilidad y la coordinación. Además,
-                        suelen realizarse al aire libre, lo que proporciona una
-                        mayor exposición a la luz solar y la vitamina D, lo que
-                        favorece la salud ósea y el sistema inmunológico.
-                        También reconozco la importancia de los juegos de mesa
-                        como herramienta de neuroeducación, lo que los convierte
-                        en una excelente opción para complementar la práctica
-                        deportiva y mejorar las habilidades cognitivas.
+                        alternativos ofrece numerosos beneficios para la salud.
+                        Estos deportes implican un alto grado de movimiento y
+                        coordinación, lo que ayuda a mejorar la flexibilidad, la
+                        agilidad y la coordinación. Además, suelen realizarse al
+                        aire libre, lo que proporciona una mayor exposición a la
+                        luz solar y la vitamina D, lo que favorece la salud ósea
+                        y el sistema inmunológico. También reconozco la
+                        importancia de los juegos de mesa como herramienta de
+                        neuroeducación, lo que los convierte en una excelente
+                        opción para complementar la práctica deportiva y mejorar
+                        las habilidades cognitivas.
                       </p>
                     </div>
                   </div>
