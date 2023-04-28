@@ -32,8 +32,11 @@ const AboutIntro = () => {
             />
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
-            <div className="reproductor-container">
+            <div className="reproductor-container pt-50">
               <div className="reproductor pb-50">
+                <h6 style={{ textAlign: "center", color: "#69fa26" }}>
+                  Escuchar...
+                </h6>
                 <AudioPlayer
                   className="audio-player green-audio-player"
                   ref={audioPlayerRef}
