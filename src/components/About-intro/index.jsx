@@ -41,7 +41,7 @@ const AboutIntro = () => {
                   className="audio-player green-audio-player"
                   ref={audioPlayerRef}
                   autoPlay={false}
-                  src="/audio.mp3"
+                  src="/audio-final.mp3"
                   onPlay={(e) => console.log("onPlay")}
                   onPause={(e) => console.log("onPause")}
                   onEnded={(e) => console.log("onEnded")}
